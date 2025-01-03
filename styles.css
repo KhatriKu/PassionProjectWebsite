@@ -1,0 +1,66 @@
+.title {
+    color:rgb(0, 0, 0) ;
+}
+body{
+    background: white;
+    font-family: 'times New Roman', Times, serif;
+    
+}
+div#button1{
+    background-color: (to left, rgb(0, 0, 0), rgb(255, 255, 255));
+    line-height: 10px;
+    
+}
+h1{
+    text-decoration-color: saddlebrown;
+    line-height: 10px;
+}
+h2{
+    font-size: 20px;
+    font-family: 'times New Roman', Times, serif;
+    text-decoration-color: saddlebrown;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 15px;
+    font-family: 'times New Roman', Times, serif;
+    color:#191970;
+    line-height: 15px;
+}
+h4{
+    font-size: 8px;
+    font-family: 'times New Roman', Times, serif;
+    line-height: 8px;
+}
+h5{
+    font-size: 6px;
+    font-family: 'times New Roman', Times, serif;
+    line-height: 6px;
+}
+h6{
+    font-size: 4px;
+    font-family: 'times New Roman', Times, serif;
+    line-height: 10px;
+}
+p{
+    font-size: 15px;
+    font-family: 'times New Roman', Times, serif;
+    color:#191970;
+    line-height: 10px;
+    font-weight: bold;
+}
+button{
+    background-color: saddlebrown;
+    color: darkgrey;
+    font-size: large;
+    font-weight:bold;
+    line-height: 25px;
+}
+.return{
+    background-color: darkgray;
+    color:saddlebrown;
+    font-weight: bold;
+    line-height: 25px;
+}
