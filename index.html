@@ -10,32 +10,37 @@
         <h1 class="title">How To Kick a Soccer Ball</h1>
         <h2>In this website relays a collection of videos and text for my personal project of how to kick a soccer ball</h2>
         <button type="button" onclick="location.href='SubPage1.html'">Click Here To Go To The Basic</button>
-        <div id="StockVideo">
+        <div id="stockVideo">
             <section>
-                <video id="Video1" width="400px">
+                <video id="video1" width="400px">
                     <source src="Videos/StockVideoForProject.mp4" type="video/mp4" />
                     Your Browser does not support mp4 videos!
                 </video>
-            </section>
-            <div id="Button1">
-                <button id="PlayPauseTest" onclick="playPause(this, 'Video1')" style="font-size: 25px; border-radius: 2px;"  script = clicks + 1;>Click To Play Video</button>
-            </div>
-            <div>
-                <button onclick="dosomething()">Click To Display More information</button>
+                <div id ="playPauseButton1">
+               
+        <button onclick="video = document.getElementById('video1');  playVideo()">Play</button>
+        <button onclick="video = document.getElementById('video1');  pauseVideo()">Pause</button>
+        <button onclick="video = document.getElementById('video1');  forwardVideo()">Forward</button>
+        <button onclick="video = document.getElementById('video1');  backwardVideo()">Backward</button>
+        
+               </div>
+                <div id=infoButton1>
+                <button onclick="updateText('greeting', 'Hello and goodbye')">Click To Display More information</button>
                 <p id="greeting" style="margin-top: 0px">Hello</p>
             </div>
+            </section>
+
         </div>
         
         <div id = "SubPage1"></div>
-            <video>
+            <video id ="practice">
                 <source src="Videos/StockVideoForProject.mp4">
             </video>
         <div>
-        <button id="PlayPauseTet" onclick="playPause(this, 'Video1')" style="font-size: 25px; border-radius: 2px;">Click To Play Video</button>
-        </div>
-        
-        <div>
-            <button type="button" onclick="location.href='Advanced.html'" style="font-size: 13px; font-weight:bold;">Click Here To Go To The More Advanced Section If You Want A Challenge!!</button>
+        <button onclick="video = document.getElementById('practice');  playVideo()">Play</button>
+        <button onclick="video = document.getElementById('practice');  pauseVideo()">Pause</button>
+        <button onclick="video = document.getElementById('practice');  forwardVideo()">Forward</button>
+        <button onclick="video = document.getElementById('practice');  backwardVideo()">Backward</button>
         </div>
     </body>
 </html>
