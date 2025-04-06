@@ -9,38 +9,46 @@
     <body>
         <h1 class="title">How To Kick a Soccer Ball</h1>
         <h2>In this website relays a collection of videos and text for my personal project of how to kick a soccer ball</h2>
-        <button type="button" onclick="location.href='SubPage1.html'">Click Here To Go To The Basic</button>
-        <div id="stockVideo">
-            <section>
+        <button type = "button" onclick="location.href-'License.html'">Click To Go To The Licensing</button>
+        <br>
+        <button type="button" onclick="location.href='SubPage1.html'">Click Here To Go To The Basics</button>
+        <br>
+        <button type="button" onclick="location.href='Advanced.html'">Click Here To Go To Suggestions & Improvements</button>
+        <div id="toeballing">
                 <video id="video1" width="400px">
-                    <source src="Videos/StockVideoForProject.mp4" type="video/mp4" />
+                    <source src="Videos/toeTheBall.mp4" type="video/mp4" />
                     Your Browser does not support mp4 videos!
                 </video>
                 <div id ="playPauseButton1">
                
         <button onclick="video = document.getElementById('video1');  playVideo()">Play</button>
         <button onclick="video = document.getElementById('video1');  pauseVideo()">Pause</button>
-        <button onclick="video = document.getElementById('video1');  forwardVideo()">Forward</button>
-        <button onclick="video = document.getElementById('video1');  backwardVideo()">Backward</button>
+        <button onclick="video = document.getElementById('video1');  forwardVideo()">Forwards</button>
+        <button onclick="video = document.getElementById('video1');  backwardVideo()">Backwards</button>
         
                </div>
                 <div id=infoButton1>
-                <button onclick="updateText('greeting', 'Hello and goodbye')">Click To Display More information</button>
-                <p id="greeting" style="margin-top: 0px">Hello</p>
+                <br>
+                <h2>Toeballing</h2>
+                 <p id="toeball" style="margin-top: auto; font-size: 15px;line-break: loose;">Toeballing is when you kick the ball with your BIG toe</p>
+                <button onclick="updateText('toeball', 'Toeballing is when you hit the ball with your big toe, dont lock you knees for more power.')">Click To Expand Text</button>
             </div>
-            </section>
-
         </div>
-        
-        <div id = "SubPage1"></div>
-            <video id ="practice">
-                <source src="Videos/StockVideoForProject.mp4">
+           
+           <div id ="insideFootKicking">
+            <video id ="insideFoot">
+                <source src="Videos/insideFoot.mp4">
+                Your browser does not support mp4 videos !
             </video>
         <div>
-        <button onclick="video = document.getElementById('practice');  playVideo()">Play</button>
-        <button onclick="video = document.getElementById('practice');  pauseVideo()">Pause</button>
-        <button onclick="video = document.getElementById('practice');  forwardVideo()">Forward</button>
-        <button onclick="video = document.getElementById('practice');  backwardVideo()">Backward</button>
+        <button onclick="video = document.getElementById('insideFoot');  playVideo()">Play</button>
+        <button onclick="video = document.getElementById('insideFoot');  pauseVideo()">Pause</button>
+        <button onclick="video = document.getElementById('insideFoot');  forwardVideo()">Forwards</button>
+        <button onclick="video = document.getElementById('insideFoot');  backwardVideo()">Backwards</button>
+        </div>
+        <h2>Inside Foot</h2>
+        <p id ="posture">Keep your posture up when passing with your inside foot and anythig else that is not a toeball!</p>
+        <button onClick="posture();">Expand Text</button>
         </div>
     </body>
 </html>
