@@ -8,20 +8,24 @@
     </head>
     <body>
     <button class="return" onclick="location.href='index.html'">Return To Main Page</button>
-    <h2>Welcome to the basics where you can learn the simplistics of kicking a soccer ball</h2>
-    <br />
-    <h3>For the most simple thing you can toe a soccer ball which is easy but is too exposed to error so other methods are created</h3>
-    //add video
-    <br>
-    <h3>If you want to go a bit more in depth we can learn to kick with the inside of our foot</h3>
-    <br />
-    //add video
-    <h3>To end the Basic well learn about the posture needed for the body</h3>
-    <br />
-    //add video
-    <br />
-    <button onClick="posture();">Expand in words</button>
-    <br />
-    <p id ="posture">Keep your posture up!</p>
+   <div id = "grassCutters">
+       <video id = "grassCutting">
+           <source src="Videos/grassCutter.mp4" type="video/mp4">
+           Your browser does not support mp4 files !
+       </video>
+       <div>
+        <button onclick="video = document.getElementById('grassCutting');  playVideo()">Play</button>
+        <button onclick="video = document.getElementById('grassCutting');  pauseVideo()">Pause</button>
+        <button onclick="video = document.getElementById('grassCutting');  forwardVideo()">Forwards</button>
+        <button onclick="video = document.getElementById('grassCutting');  backwardVideo()">Backwards</button>
+        </div>
+      <h2>
+          Grass Cutter
+      </h2>
+       <p id = "grassCutterText">
+           A grass cutter.
+       </p>
+       <button onclick="updateText('grassCutterText','A grass cuter is shen you strike the middle of a ball, striking through the center and you foot throught the ball, leaning foward and not back.')">Expand Text</button>
+   </div>
     </body>
 </html>
